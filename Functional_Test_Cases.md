@@ -1,6 +1,6 @@
-10 Functional Test Cases
+Functional Test Cases
 
-Positive Test Cases
+Positive Test Cases:
 
 TC_01:
 Verify that the user is able to successfully log in when a valid username and a valid password are entered, and the success message “Logged In Successfully” is displayed.
@@ -17,7 +17,7 @@ Verify that no error message is displayed on the screen when the user logs in wi
 TC_05:
 Verify that the user can successfully log in with valid credentials even after refreshing the login page.
 
-Negative Test Cases
+Negative Test Cases:
 
 TC_06:
 Verify that an appropriate error message is displayed when the user enters an invalid username and a valid password.
