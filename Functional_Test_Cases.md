@@ -2,24 +2,34 @@
 
 Positive Test Cases
 
-1. Login with valid username and valid password → success message displayed
+TC_01:
+Verify that the user is able to successfully log in when a valid username and a valid password are entered, and the success message “Logged In Successfully” is displayed.
 
-2. Login with valid credentials → redirected to logged-in page
+TC_02:
+Verify that the user is redirected to the logged-in (secure) page after entering valid login credentials and clicking the Submit button.
 
-3. Login with valid credentials → logout button visible
+TC_03:
+Verify that the Logout button is visible after a successful login using valid credentials.
 
-4. Login with valid credentials → no error message shown
+TC_04:
+Verify that no error message is displayed on the screen when the user logs in with valid username and password.
 
-5. Login after page refresh with valid credentials → success
+TC_05:
+Verify that the user can successfully log in with valid credentials even after refreshing the login page.
 
 Negative Test Cases
 
-6. Login with invalid username & valid password → error message
+TC_06:
+Verify that an appropriate error message is displayed when the user enters an invalid username and a valid password.
 
-7. Login with valid username & invalid password → error message
+TC_07:
+Verify that an appropriate error message is displayed when the user enters a valid username and an invalid password.
 
-8. Login with empty username & password → error message
+TC_08:
+Verify that an error message is displayed when the user attempts to log in without entering both username and password.
 
-9. Login with empty username → error message
+TC_09:
+Verify that an error message is displayed when the user attempts to log in without entering a username.
 
-10. Login with empty password → error message
+TC_10:
+Verify that an error message is displayed when the user attempts to log in without entering a password.
